@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[37,)" 
+license="MIT"
+[[mods]] 
+modId="structurecraft" 
+version="0.1" 
+displayName="Structure Craft" 
+logoFile="sc_logo.png" 
+credits="CreDITSSSS?????!!!" 
+authors="leplopp" 
+description='''
+build everything  what you want
+'''
+[[dependencies.structurecraft]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[37,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.structurecraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
