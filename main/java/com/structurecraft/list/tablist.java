@@ -11,5 +11,4 @@ public class tablist {
 
 	public static final CreativeModeTab SCTAB_MAIN = new CreativeModeTab("scmaintab") {
 		public ItemStack makeIcon() {return new ItemStack(Blocks.ACACIA_BUTTON);}};
-	sss
 }
