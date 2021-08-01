@@ -1,0 +1,11 @@
+{
+"parent": "minecraft:block/block",
+	"textures":
+	{
+		"materialtexture": "minecraft:block/cobblestone",
+		"particle": "minecraft:block/cobblestone"
+	},
+	"loader": "forge:obj",
+	"model": "structurecraft:models/block/obj/cornerinobj_main.obj",
+	"flip-v": true
+}

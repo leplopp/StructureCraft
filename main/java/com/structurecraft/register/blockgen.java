@@ -20,7 +20,11 @@ public class blockgen {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, structurecraft.MODID);
 	
 	
-	public static final RegistryObject<Block> SLOPEOBJ_MAIN = BLOCKS.register(namelist.SLOPEOBJMAIN, () -> new Block(properties.Propertiestone()));
+	public static final RegistryObject<Block> SLOPEOBJ_MAIN = BLOCKS.register(namelist.SLOPEOBJ_MAIN, () -> new Block(properties.Propertiestone()));
+	
+	public static final RegistryObject<Block> CORNEROUT_MAIN = BLOCKS.register("corneroutobj_main", () -> new Block(properties.Propertiestone()));
+
+	public static final RegistryObject<Block> CORNERIN_MAIN = BLOCKS.register("cornerinobj_main", () -> new Block(properties.Propertiestone()));
 	
 	
 	
