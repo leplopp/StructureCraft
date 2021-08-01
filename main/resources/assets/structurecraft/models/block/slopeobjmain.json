@@ -1,5 +1,6 @@
 {
 "parent": "minecraft:block/block",
+"ambientocclusion": false,
 	"textures":
 	{
 		"materialtexture": "minecraft:block/cobblestone",
@@ -7,5 +8,6 @@
 	},
 	"loader": "forge:obj",
 	"model": "structurecraft:models/block/obj/slopeobjmain.obj",
-	"flip-v": true
+	"flip-v": true,
+	"cullface": "down"
 }
