@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"loader": "forge:obj",
+	"ambientocclusion": false,
+	"flip-v": true,
+	"model": "structurecraft:models/block/obj/slopeobjmain.obj",
+	"textures":
+	{
+		"materialtexture": "minecraft:block/cobblestone",
+		"particle": "minecraft:block/cobblestone"
+	}
+
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "structurecraft:block/slopes/slopeobjmain", 
+  "parent": "structurecraft:block/slopes/slopeobj_glass", 
    "display": {
         "gui": {
             "rotation": [ 30, 45, 0 ],

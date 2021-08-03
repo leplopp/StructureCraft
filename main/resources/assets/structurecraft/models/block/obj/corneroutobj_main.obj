@@ -1,5 +1,3 @@
-# Blender v2.92.0 OBJ File: 'MainModCornerBlock.blend'
-# www.blender.org
 mtllib corneroutobj_main.mtl
 o Cube
 v 1.000000 0.000000 0.000000
@@ -19,10 +17,10 @@ vt 1.000000 1.000000
 vt 0.000000 0.000000
 vt 1.000000 0.000000
 vt 0.000000 1.000000
-vn 0.0000 0.0000 1.0000
-vn -1.0000 0.0000 0.0000
-vn 0.0000 -1.0000 0.0000
-vn 0.4082 0.8165 -0.4082
+vn 0.0000 0.0000 0.0000
+vn 0.0000 0.0000 0.0000
+vn 0.0000 0.0000 0.0000 #  down
+vn 0.0000 0.0000 0.0000  # top
 usemtl Material
 s off
 f 5/1/1 2/2/1 4/3/1

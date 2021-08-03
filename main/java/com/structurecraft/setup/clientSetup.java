@@ -1,7 +1,10 @@
 package com.structurecraft.setup;
 
 import com.structurecraft.structurecraft;
+import com.structurecraft.register.blockgen;
 
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
@@ -10,6 +13,10 @@ public class clientSetup {
 
 	
 	public static void init(final FMLClientSetupEvent event) { 
+		
+		ItemBlockRenderTypes.setRenderLayer(blockgen.SLOPEOBJ_MAIN.get(), RenderType.cutout());
+		
+		ItemBlockRenderTypes.setRenderLayer(blockgen.SLOPEOBJ_GLASS.get(), RenderType.cutoutMipped());
 		
 	}
 	

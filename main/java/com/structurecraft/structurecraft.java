@@ -17,13 +17,10 @@ import net.minecraftforge.fmlserverevents.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import com.structurecraft.register.blockgen;
 import com.structurecraft.setup.clientSetup;
-
 import java.util.Locale;
 import java.util.stream.Collectors;
-
 
 @Mod("structurecraft")
 @Mod.EventBusSubscriber(modid = structurecraft.MODID, bus = Bus.MOD)
