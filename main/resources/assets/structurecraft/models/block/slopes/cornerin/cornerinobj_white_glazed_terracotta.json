@@ -1,0 +1,11 @@
+{
+"parent": "minecraft:block/block",
+	"textures":
+	{
+		"materialtexture": "minecraft:block/white_glazed_terracotta",
+		"particle": "minecraft:block/white_glazed_terracotta"
+	},
+	"loader": "forge:obj",
+	"model": "structurecraft:models/block/obj/cornerinobj_main.obj",
+	"flip-v": true
+}

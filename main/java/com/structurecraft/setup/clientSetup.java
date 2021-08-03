@@ -14,7 +14,7 @@ public class clientSetup {
 	
 	public static void init(final FMLClientSetupEvent event) { 
 		
-		ItemBlockRenderTypes.setRenderLayer(blockgen.SLOPEOBJ_MAIN.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(blockgen.SLOPEOBJ_COBBLESTONE.get(), RenderType.cutout());
 		
 		ItemBlockRenderTypes.setRenderLayer(blockgen.SLOPEOBJ_GLASS.get(), RenderType.cutoutMipped());
 		

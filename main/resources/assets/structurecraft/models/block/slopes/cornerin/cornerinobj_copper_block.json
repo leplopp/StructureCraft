@@ -1,0 +1,11 @@
+{
+"parent": "minecraft:block/block",
+	"textures":
+	{
+		"materialtexture": "minecraft:block/copper_block",
+		"particle": "minecraft:block/copper_block"
+	},
+	"loader": "forge:obj",
+	"model": "structurecraft:models/block/obj/cornerinobj_main.obj",
+	"flip-v": true
+}
