@@ -19,6 +19,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.structurecraft.register.blockgen;
 import com.structurecraft.setup.clientSetup;
+import com.structurecraft.util.jsonGen;
+
 import java.util.Locale;
 import java.util.stream.Collectors;
 
@@ -35,6 +37,9 @@ public class structurecraft
 		MinecraftForge.EVENT_BUS.register(this);
 		
 		blockgen.BLOCKS.register(bus);
+		jsonGen.genBlockstates();
+		jsonGen.genModels();
+		jsonGen.genItemModels();
 		
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(clientSetup::init);
 

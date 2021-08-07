@@ -31,7 +31,7 @@ public class blockgen {
 	public static final RegistryObject<Block> SLOPEOBJ_POLISHED_DIORITE = BLOCKS.register("slopeobj_polished_diorite", () -> new SlopeOBJGlassBlock(Blocks.GLASS.defaultBlockState(), properties.Propertiestone()));
 	public static final RegistryObject<Block> SLOPEOBJ_ANDESITE = BLOCKS.register("slopeobj_andesite", () -> new SlopeOBJGlassBlock(Blocks.GLASS.defaultBlockState(), properties.Propertiestone()));
 	public static final RegistryObject<Block> SLOPEOBJ_POLISHED_ANDESITE = BLOCKS.register("slopeobj_polished_andesite", () -> new SlopeOBJGlassBlock(Blocks.GLASS.defaultBlockState(), properties.Propertiestone()));
-	public static final RegistryObject<Block> SLOPEOBJ_COBBLESTONE = BLOCKS.register(namelist.SLOPEOBJ_MAIN, () -> new SlopeOBJBlock(Blocks.COBBLESTONE.defaultBlockState(), properties.Propertiestone()));
+	public static final RegistryObject<Block> SLOPEOBJ_COBBLESTONE = BLOCKS.register("slopeobjmain", () -> new SlopeOBJBlock(Blocks.COBBLESTONE.defaultBlockState(), properties.Propertiestone()));
 	public static final RegistryObject<Block> SLOPEOBJ_BEDROCK = BLOCKS.register("slopeobj_bedrock", () -> new SlopeOBJGlassBlock(Blocks.GLASS.defaultBlockState(), properties.Propertiestone()));
 	public static final RegistryObject<Block> SLOPEOBJ_LAPIS_ORE = BLOCKS.register("slopeobj_lapis_ore", () -> new SlopeOBJGlassBlock(Blocks.GLASS.defaultBlockState(), properties.Propertiestone()));
 	public static final RegistryObject<Block> SLOPEOBJ_DEEPSLATE_LAPIS_ORE = BLOCKS.register("slopeobj_deepslate_lapis_ore", () -> new SlopeOBJGlassBlock(Blocks.GLASS.defaultBlockState(), properties.Propertiestone()));

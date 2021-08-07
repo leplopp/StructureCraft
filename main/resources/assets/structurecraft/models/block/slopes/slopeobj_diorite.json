@@ -1,11 +1,9 @@
 {
-	"parent": "minecraft:block/cube_all",
+  	"parent": "minecraft:block/cube_all",
 	"loader": "forge:obj",
-	"flip-v": true,
+  	"flip-v": true,
 	"model": "structurecraft:models/block/obj/slopeobjmain.obj",
-	"textures":
-	{
-		"materialtexture": "minecraft:block/diorite",
-		"particle": "minecraft:block/diorite"
-	}
-}
+  	"textures": {
+   "materialtexture": "minecraft:block/diorite",
+   "particle": "minecraft:block/diorite"
+  }}

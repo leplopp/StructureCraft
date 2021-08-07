@@ -12,9 +12,14 @@ import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
+import net.minecraft.world.level.material.FlowingFluid;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraftforge.common.Tags.Fluids;
+import net.minecraftforge.fluids.FluidAttributes.Water;
 
 public class SlopeOBJGlassBlock extends StairBlock {
 	
@@ -47,11 +52,16 @@ public class SlopeOBJGlassBlock extends StairBlock {
 			return false;
 		} 
 		 
-		   public boolean skipRendering(BlockState p_53972_, BlockState p_53973_, Direction p_53974_) {
-			      return  p_53973_.is(this) ? true : super.skipRendering(p_53972_, p_53973_, p_53974_);			   
+		   public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
+			      return  super.skipRendering(state, adjacentBlockState, side) && state != adjacentBlockState;			   
 		
-			   }
-		   
+			   }		   
+  @Override
+public BlockState getStateAtViewpoint(BlockState state, BlockGetter world, BlockPos pos, Vec3 viewpoint) {
+	return super.getStateAtViewpoint(state, world, pos, viewpoint);
+	
+}
+  
 		   public VoxelShape getVisualShape(BlockState p_48735_, BlockGetter p_48736_, BlockPos p_48737_, CollisionContext p_48738_) {
 			      return Shapes.empty();
 			   }
@@ -63,7 +73,7 @@ public class SlopeOBJGlassBlock extends StairBlock {
 			   public boolean propagatesSkylightDown(BlockState p_48740_, BlockGetter p_48741_, BlockPos p_48742_) {
 			      return true;
 			   }
-
+			   
 		
 @Override
 public boolean hasDynamicShape() {

@@ -1,0 +1,6 @@
+{
+   "parent": "structurecraft:block/slopes/slopeobj_deepslate_coal_ore",
+	"display": {
+		"gui": {
+ 			"rotation": [ 30, 45, 0 ],
+			"scale":[ 0.625, 0.625, 0.625 ]}}}
