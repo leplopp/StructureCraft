@@ -1,0 +1,9 @@
+{
+  	"parent": "minecraft:block/cube_all",
+	"loader": "forge:obj",
+  	"flip-v": true,
+	"model": "structurecraft:models/block/obj/slopeobjmain.obj",
+  	"textures": {
+   "materialtexture": "minecraft:block/magenta_terracotta",
+   "particle": "minecraft:block/magenta_terracotta"
+  }}

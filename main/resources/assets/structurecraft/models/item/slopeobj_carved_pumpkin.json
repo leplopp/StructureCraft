@@ -1,0 +1,6 @@
+{
+   "parent": "structurecraft:block/slopes/slopeobj_carved_pumpkin",
+	"display": {
+		"gui": {
+ 			"rotation": [ 30, 45, 0 ],
+			"scale":[ 0.625, 0.625, 0.625 ]}}}

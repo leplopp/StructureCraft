@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import com.structurecraft.structurecraft;
 import com.structurecraft.list.namelist;
-
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = structurecraft.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)

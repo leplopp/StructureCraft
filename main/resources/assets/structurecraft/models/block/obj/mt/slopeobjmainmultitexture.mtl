@@ -1,0 +1,8 @@
+newmtl Material.001
+map_Kd #materialtexture
+
+newmtl Material.002
+map_Kd #materialtexture
+
+newmtl Material.003
+map_Kd #materialtexture
